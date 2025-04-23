@@ -46,9 +46,11 @@ money = 0  # 玩家賺到的金錢
 total_customers = 0  # 總來客數
 last_customer_time = pygame.time.get_ticks()  # 上次新增客人的時間
 game_over = False  # 遊戲結束標誌
+gameover_sound_played = False  # 遊戲結束音效是否已播放
 paused = False  # 暫停狀態標誌
 current_order = []  # 玩家當前製作的冰淇淋口味
 shake_start_time = None  # 錯誤時晃動效果的開始時間
+
 
 # 定義冰淇淋桶的位置與懸浮狀態
 ice_cream_tubs = {
@@ -71,17 +73,18 @@ main_menu_button = pygame.Rect(WIDTH // 2 - 100, HEIGHT // 2 + 190, 200, 50)  # 
 pygame.mixer.init()
 
 # 載入背景音樂
-pygame.mixer.music.load('bgm/bgm.mp3')
+pygame.mixer.music.load('sound/bgm.mp3')
 pygame.mixer.music.set_volume(0.3)  # 設定音量（0.0 到 1.0 範圍）
 pygame.mixer.music.play(-1)  # 循環播放 (-1 表示無限循環)
 
 # 載入音效
-customer_sound = pygame.mixer.Sound("bgm/customer_appears.mp3")
-ice_cream_sound = pygame.mixer.Sound("bgm/ice_cream.mp3")
-wrong_sound = pygame.mixer.Sound("bgm/wrong.mp3")
-coin_sound = pygame.mixer.Sound("bgm/coin.mp3")
-click_sound = pygame.mixer.Sound("bgm/click.mp3")
-bye_bye_sound = pygame.mixer.Sound("bgm/bye_bye.mp3")
+customer_sound = pygame.mixer.Sound("sound/customer_appears.mp3")
+ice_cream_sound = pygame.mixer.Sound("sound/ice_cream.mp3")
+wrong_sound = pygame.mixer.Sound("sound/wrong.mp3")
+coin_sound = pygame.mixer.Sound("sound/coin.mp3")
+click_sound = pygame.mixer.Sound("sound/click.mp3")
+bye_bye_sound = pygame.mixer.Sound("sound/bye_bye.mp3")
+gameover_sound = pygame.mixer.Sound("sound/gameover.mp3")
 
 # 繪製文字的函數
 def draw_text(text, x, y, font=font, color=(0, 0, 0)):
@@ -168,7 +171,7 @@ def draw_pause_menu():
 
 # 主遊戲迴圈
 def main():
-    global last_customer_time, money, game_over, current_order, shake_start_time, paused, total_customers
+    global last_customer_time, money, game_over, current_order, shake_start_time, paused, total_customers, gameover_sound_played 
 
     while True:
         screen.fill((173, 216, 230))  # 清空螢幕並填充淺藍色背景
@@ -230,6 +233,9 @@ def main():
             # 顯示遊戲結束畫面
             if game_over:
                 screen.blit(game_over_img, (WIDTH // 2 - 200, HEIGHT // 2 - 100))
+                if not gameover_sound_played:  # 檢查音效是否已播放
+                    gameover_sound.play()  # 播放遊戲結束音效
+                    gameover_sound_played = True  # 更新標誌，防止重複播放
 
         pygame.display.flip()  # 更新螢幕顯示
         clock.tick(FPS)  # 控制遊戲幀率
