@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="svg1" inkscape:export-filename="clock.svg" sodipodi:docname="play ui.eps" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 600 300"
+	 style="enable-background:new 0 0 600 300;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_00000150813041613319452280000002172102199020635810_);fill:#DC8689;}
+	.st1{clip-path:url(#SVGID_00000121997488434140558120000011723025215813616566_);fill:#FFDBB3;}
+	.st2{clip-path:url(#SVGID_00000006698061754572289800000011916533454186804632_);fill:#DC8689;}
+	.st3{fill:#FFFF00;stroke:#C79555;stroke-width:4.7165;}
+	.st4{fill:#FFFF00;stroke:#C79555;stroke-width:4.3978;}
+	.st5{font-family:'Arial-Black';}
+	.st6{font-size:69.865px;}
+</style>
+<sodipodi:namedview  bordercolor="#000000" borderopacity="0.25" id="namedview1" inkscape:current-layer="layer11" inkscape:cx="1571.4053" inkscape:cy="703.28628" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" inkscape:pagecheckerboard="0" inkscape:pageopacity="0.0" inkscape:showpageshadow="2" inkscape:window-height="741" inkscape:window-maximized="0" inkscape:window-width="1328" inkscape:window-x="63" inkscape:window-y="42" inkscape:zoom="0.13650202" pagecolor="#ffffff">
+	<inkscape:page  bleed="0" height="600" id="page2" margin="0" width="800" x="0" y="0"></inkscape:page>
+</sodipodi:namedview>
+<g id="layer1" transform="matrix(0.95429627,0,0,0.99547513,16.834683,3.5210986)" inkscape:groupmode="layer" inkscape:label="cat">
+	<g id="g8" transform="matrix(1.1753142,0,0,1.0573868,-167.03807,-229.75814)" inkscape:label="coin">
+		<g id="g9">
+			<g id="g59" transform="matrix(0.67760259,0,0,0.77194941,276.98211,102.94098)">
+				<g>
+					<defs>
+						<rect id="SVGID_1_" x="-1585.2" y="-179" width="1990.1" height="1341.7"/>
+					</defs>
+					<clipPath id="SVGID_00000116203495735880459440000007301202074898651532_">
+						<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+					</clipPath>
+					<path id="path89-7-2" style="clip-path:url(#SVGID_00000116203495735880459440000007301202074898651532_);fill:#DC8689;" d="
+						M494.5,274.4c-0.9-0.6-22.9-22.3-23.9-22.8c-17.9-7.4-283.7-1.4-546.2,6.2v148.7c276.7,0.6,559-2.4,568.4-5.1
+						C510.3,396.3,523.6,293.5,494.5,274.4"/>
+				</g>
+				<g>
+					<defs>
+						<rect id="SVGID_00000082337735632452386390000009135179613939078068_" x="-1585.2" y="-179" width="1990.1" height="1341.7"/>
+					</defs>
+					<clipPath id="SVGID_00000163781826776285813530000007524186153623353759_">
+						<use xlink:href="#SVGID_00000082337735632452386390000009135179613939078068_"  style="overflow:visible;"/>
+					</clipPath>
+					<path id="path91-3" style="clip-path:url(#SVGID_00000163781826776285813530000007524186153623353759_);fill:#FFDBB3;" d="
+						M468.7,250.7c-17.6-7.2-280.7-7.9-544.3-6.3v147.4c272.9,1.4,545.5-0.5,554.6-3.2C497.1,383.4,500.9,264,468.7,250.7"/>
+				</g>
+				<g>
+					<defs>
+						<rect id="SVGID_00000141439186425142171370000015979231778190462394_" x="-1585.2" y="-179" width="1990.1" height="1341.7"/>
+					</defs>
+					<clipPath id="SVGID_00000104684278566160179920000012397079205268338055_">
+						<use xlink:href="#SVGID_00000141439186425142171370000015979231778190462394_"  style="overflow:visible;"/>
+					</clipPath>
+					<path id="path93-1" style="clip-path:url(#SVGID_00000104684278566160179920000012397079205268338055_);fill:#DC8689;" d="
+						M437.5,269c-12.5-7.9-264.4-9.3-513.1-8.6V375c250.6,1,505.7-0.5,520.2-10C473.5,346.1,462.4,284.9,437.5,269"/>
+				</g>
+			</g>
+			<g id="g61" transform="translate(-1.3134043,80.799)">
+				<ellipse id="path6" class="st3" cx="231.3" cy="274.4" rx="66" ry="76.9"/>
+				<ellipse id="path8" class="st4" cx="231.3" cy="274.4" rx="40.6" ry="48.9"/>
+				<text transform="matrix(0.786 0 0 0.95 213.2776 296.4749)" class="st5 st6">$</text>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
