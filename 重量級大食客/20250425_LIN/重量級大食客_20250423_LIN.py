@@ -53,7 +53,7 @@ def check_surface(surface, name):
 try:
     coin_img = check_surface(pygame.image.load('assest/coin.png').convert_alpha(), 'coin')
     clock_img = check_surface(pygame.image.load('assest/clock.png').convert_alpha(), 'clock')
-    game_over_img = check_surface(pygame.image.load('GAMEOVER.svg').convert_alpha(), 'game_over')
+    game_over_img = check_surface(pygame.image.load('assest/GAMEOVER.svg').convert_alpha(), 'game_over')
     background_img = check_surface(pygame.image.load('assest/background_1.png').convert(), 'background')
     cat_ok_img = check_surface(pygame.image.load('assest/cat_ok.png').convert_alpha(), 'cat_ok')
     cat_no_img = check_surface(pygame.image.load('assest/cat_no.png').convert_alpha(), 'cat_no')
