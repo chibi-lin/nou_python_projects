@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="svg1" inkscape:export-filename="cone.svg" sodipodi:docname="play ui.eps" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 600 300"
+	 style="enable-background:new 0 0 600 300;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_00000057869223021796875470000001213881328116599218_);fill:#DC8689;}
+	.st1{clip-path:url(#SVGID_00000145752112800012032730000015286739933728898722_);fill:#FFDBB3;}
+	.st2{clip-path:url(#SVGID_00000070089439226796650710000007102177850120269197_);fill:#DC8689;}
+	.st3{fill:#FFFF00;stroke:#C79555;stroke-width:6.5213;}
+</style>
+<sodipodi:namedview  bordercolor="#000000" borderopacity="0.25" id="namedview1" inkscape:current-layer="layer11" inkscape:cx="1571.4053" inkscape:cy="703.28628" inkscape:deskcolor="#d1d1d1" inkscape:document-units="mm" inkscape:pagecheckerboard="0" inkscape:pageopacity="0.0" inkscape:showpageshadow="2" inkscape:window-height="741" inkscape:window-maximized="0" inkscape:window-width="1328" inkscape:window-x="63" inkscape:window-y="42" inkscape:zoom="0.13650202" pagecolor="#ffffff">
+	<inkscape:page  bleed="0" height="600" id="page2" margin="0" width="800" x="0" y="0"></inkscape:page>
+</sodipodi:namedview>
+<g id="layer1" transform="matrix(0.95429627,0,0,0.99547513,16.834683,3.5210986)" inkscape:groupmode="layer" inkscape:label="cat">
+	
+		<g id="layer6" transform="matrix(0.8183438,0,0,0.83329364,-180.83024,14.167057)" inkscape:groupmode="layer" inkscape:label="clock">
+		<g id="g60" transform="matrix(0.97318015,0,0,0.97954552,749.80858,-447.39312)">
+			<g>
+				<defs>
+					<rect id="SVGID_1_" x="-1932.3" y="113.2" width="1990.1" height="1341.7"/>
+				</defs>
+				<clipPath id="SVGID_00000076578993176999865950000006655063871462887315_">
+					<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+				</clipPath>
+				<path id="path89-7" style="clip-path:url(#SVGID_00000076578993176999865950000006655063871462887315_);fill:#DC8689;" d="
+					M147.5,566.6c-0.9-0.6-22.9-22.3-23.9-22.8c-17.9-7.4-283.7-1.4-546.2,6.2v148.7c276.7,0.6,559-2.4,568.4-5.1
+					C163.2,688.5,176.6,585.7,147.5,566.6"/>
+			</g>
+			<g>
+				<defs>
+					<rect id="SVGID_00000151538610369241453520000002047293977733328029_" x="-1932.3" y="113.2" width="1990.1" height="1341.7"/>
+				</defs>
+				<clipPath id="SVGID_00000067932356925271525860000010008123009803140492_">
+					<use xlink:href="#SVGID_00000151538610369241453520000002047293977733328029_"  style="overflow:visible;"/>
+				</clipPath>
+				<path id="path91" style="clip-path:url(#SVGID_00000067932356925271525860000010008123009803140492_);fill:#FFDBB3;" d="
+					M121.7,542.9c-17.6-7.2-280.7-7.9-544.3-6.3V684c272.9,1.4,545.5-0.5,554.6-3.2C150,675.5,153.9,556.2,121.7,542.9"/>
+			</g>
+			<g>
+				<defs>
+					<rect id="SVGID_00000151539225739083757710000015466420466867760043_" x="-1932.3" y="113.2" width="1990.1" height="1341.7"/>
+				</defs>
+				<clipPath id="SVGID_00000164471490804145694420000006798726145754867391_">
+					<use xlink:href="#SVGID_00000151539225739083757710000015466420466867760043_"  style="overflow:visible;"/>
+				</clipPath>
+				<path id="path93" style="clip-path:url(#SVGID_00000164471490804145694420000006798726145754867391_);fill:#DC8689;" d="
+					M90.5,561.2c-12.5-7.9-264.4-9.3-513.1-8.6v114.6c250.6,1,505.7-0.5,520.2-10C126.5,638.3,115.4,577.1,90.5,561.2"/>
+			</g>
+			<ellipse id="path6-9" class="st3" cx="-419.2" cy="625.7" rx="97.4" ry="99.7"/>
+			<path id="use62-9" d="M-375.5,651.5l-6,9.8l-48.3-24.1l6-9.8L-375.5,651.5z M-394.4,670l10.3-17l10.3-17l11.1,16.6l11.1,16.6
+				l-21.4,0.4L-394.4,670z M-430.7,587.2h12.4v50h-12.4V587.2z M-403.7,593.4l-21.4,0l-21.4,0l10.7-16.8l10.7-16.8l10.7,16.8
+				L-403.7,593.4z"/>
+		</g>
+	</g>
+</g>
+</svg>
