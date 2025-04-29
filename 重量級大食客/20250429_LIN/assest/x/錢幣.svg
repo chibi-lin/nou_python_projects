@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <!-- 背景圓形 -->
+  <circle cx="150" cy="150" r="140" fill="#E8E8E8" stroke="#666666" stroke-width="2"/>
+  <circle cx="150" cy="150" r="130" fill="#00A86B" stroke="#008855" stroke-width="3"/>
+  
+  <!-- 美元符號 -->
+  <path d="M150 60 L150 240" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
+  <path d="M120 80 C120 60, 180 60, 180 90 C180 120, 120 140, 120 170 C120 200, 180 200, 180 180" 
+        stroke="#FFFFFF" stroke-width="12" fill="none" stroke-linecap="round"/>
+  
+  <!-- 錢幣邊緣裝飾 -->
+  <circle cx="150" cy="150" r="115" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="5,5"/>
+</svg>
