@@ -494,8 +494,6 @@ def draw_gameover():
     screen.blit(cat_bye_img, (5, 370))
     screen.blit(coin_img, (10, 285))
     draw_text(f'{money}', 90, 320, color=(0, 0, 0))
-    # screen.blit(coin_img, (20, 0))
-    # draw_text(f'{money}', 100, 35, color=(0, 0, 0))
     pygame.draw.rect(screen, (180, 160, 140), start_button, border_radius=10)  # replay按鈕背景
     draw_text("Replay", WIDTH // 2 + 115, HEIGHT // 2 + 225, color=(255, 255, 255))  # replay按鈕文字
     pygame.draw.rect(screen, (180, 160, 140), prev_button, border_radius=10)  # quit按鈕背景
